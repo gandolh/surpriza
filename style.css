@@ -1,0 +1,23 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.display h1,p {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+
+}
+.display h1{
+	font-size:40px;
+}
+.display p{
+	font-size:20px;
+}
+
+.display {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
