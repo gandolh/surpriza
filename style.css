@@ -9,10 +9,10 @@ html {
 
 }
 .display h1{
-	font-size:40px;
+	font-size:3.5em;
 }
 .display p{
-	font-size:20px;
+	font-size:1.75em;
 }
 
 .display {
@@ -21,7 +21,7 @@ html {
     top: 50%;
     transform: translate(-50%, -50%);
 }
-
+/*
 @media (max-width: 480px) {
 	.display h1{
 	font-size:30px;
@@ -37,4 +37,4 @@ html {
 .display p{
 	font-size: 10px;
 }
-}
+}*/
