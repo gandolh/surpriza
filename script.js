@@ -37,7 +37,7 @@ timer();
 
 function timer() {
     const now = Date.now();
-    const then = new Date(2020, 5, 25, 8, 0).getTime(); //year month(indexed from 0) days for the day for what you want the countdown
+    const then = new Date(2020, 5, 22, 8, 0).getTime(); //year month(indexed from 0) days for the day for what you want the countdown
     displayTimeLeft(Math.round((then - now) / 1000));
     displayEndTime();
     countDown = setInterval(() => {
@@ -66,6 +66,6 @@ function displayTimeLeft(seconds) {
 }
 
 function displayEndTime() {
-    endTime.textContent = `Teroare incepe la: 08:00 / 25.06.2020`;
+    endTime.textContent = `Teroare incepe la: 08:00 / 22.06.2020`;
 }
 // end timer
