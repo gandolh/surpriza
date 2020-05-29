@@ -20,7 +20,7 @@ if (backgroundIndex == 1) {
     bodyEl.style.color = '#FFB77A';
 } else if (backgroundIndex == 5) {
     bodyEl.style.background = 'linear-gradient(to right, rgb(0, 176, 155), rgb(150, 201, 61))'; //green
-    bodyEl.style.color = '#EDB4FE';
+    bodyEl.style.color = '#071a52';
 } else if (backgroundIndex == 6) {
     bodyEl.style.background = 'linear-gradient(to right, rgb(248, 80, 50), rgb(231, 56, 39))'; //red
     bodyEl.style.color = '#9CFFC4';
