@@ -60,11 +60,12 @@ function displayTimeLeft(seconds) {
     const minutes = Math.floor(seconds / 60);
     seconds = seconds % 60;
     const remainderSeconds = seconds % 60;
-    const display = `${days} zile ${hours} ore ${minutes} minute ${remainderSeconds<10 ? '0':''}${remainderSeconds} secunde`;
+    const display = `${hours} ore ${minutes} minute ${remainderSeconds<10 ? '0':''}${remainderSeconds} secunde`;
+    document.querySelector('.display__days').textContent= `Mai sunt: ${days} zile` 
     timerDisplay.textContent = display;
 }
 
 function displayEndTime() {
-    endTime.textContent = `Teroare incepe la: 08:00 / 25 06 2020`;
+    endTime.textContent = `Teroare incepe la: 08:00 / 25.06.2020`;
 }
 // end timer
