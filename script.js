@@ -61,7 +61,7 @@ function displayTimeLeft(seconds) {
     seconds = seconds % 60;
     const remainderSeconds = seconds % 60;
     const display = `${hours} ore ${minutes} minute ${remainderSeconds<10 ? '0':''}${remainderSeconds} secunde`;
-    document.querySelector('.display__days').textContent= `Mai sunt: ${days} zile` 
+    document.querySelector('.display__days').textContent= `Mai ai: ${days} zile` 
     timerDisplay.textContent = display;
 }
 
